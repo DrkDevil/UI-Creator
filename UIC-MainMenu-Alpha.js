@@ -13,7 +13,7 @@
  *
  * @param Command Window Y Position
  * @desc Enter the Y Cord you want your Command window to be. Value is in px.
- * @default 0
+ * @default 559
  *
  * @param Command Window Width
  * @desc Enter the Width you want your Command window to be. Value is in px.
