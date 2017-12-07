@@ -4,7 +4,7 @@
  *
  * @help
  * =============================================================================
- * ||||||||||||||||||||||  UIC - Main Menu Editor (v0.1.5)  ||||||||||||||||||||||
+ * ||||||||||||||||||||||  UIC - Main Menu Editor (v0.1.5)  ||||||||||||||||||||
  * =============================================================================
  *
  *                                  created by
@@ -51,6 +51,14 @@
  *   Here you can change the opacity of your window making it a bit more 
  *   tranparent. Setting the opacity to 255 will make you window with a 
  *   full opacity. 127 is roughly 50% opacity. and 0 is completly transparent.
+ *
+ *
+ *  ----------------------------------------------------------------------------
+ *  +++ Version History +++
+ *  ----------------------------------------------------------------------------
+ *
+ * (0.1) - Initial Creation.  Ability to arange Main Menu Layout.
+ * (0.1.5) - Added help file to the plugin to commit to RPGMaker 1.5.1 Standards
  *
  *
  * @param --- Command Window ---
@@ -149,8 +157,8 @@
  */
 (function () {
     
-	// I will add  this back in (V.02) with additional features. 
-	//Create Background
+	// I will add  this back in (V0.2) with additional features. 
+	// Create Background
  
 	// Scene_MenuBase.prototype.createBackground = function() {
     //     this._backgroundSprite = new Sprite();
