@@ -1,8 +1,57 @@
 /*:
- * @plugindesc RPGMV UI Creator - Main Menus
+ * @plugindesc UI Creator - Main Menu Editor (v0.1.5)
  * @author Digital Religion
  *
- * --- Command Window Parameters ---
+ * @help
+ * =============================================================================
+ * ||||||||||||||||||||||  UIC - Main Menu Editor (v0.1.5)  ||||||||||||||||||||||
+ * =============================================================================
+ *
+ *                                  created by
+ *        ____  _       _ _        _   ____      _ _       _             
+ *       |  _ \(_) __ _(_) |_ __ _| | |  _ \ ___| (_) __ _(_) ___  _ __  
+ *       | | | | |/ _` | | __/ _` | | | |_) / _ \ | |/ _` | |/ _ \| '_ \ 
+ *       | |_| | | (_| | | || (_| | | |  _ <  __/ | | (_| | | (_) | | | |
+ *       |____/|_|\__, |_|\__\__,_|_| |_| \_\___|_|_|\__, |_|\___/|_| |_|
+ *                |___/                              |___/               
+ *
+ *               https://rpgmaker.digitalreligon.net/ui-creator
+ *
+ * =============================================================================
+ *
+ *  ----------------------------------------------------------------------------
+ *  +++ ABOUT THIS PLUGIN +++
+ *  ----------------------------------------------------------------------------
+ *
+ *  This plugin allows you to edit the main menu system and arange the layout to
+ *  your specifications. This will allow you to create more stylized menus for 
+ *  game. Allowing your game to stand out from the crowd. 
+ *
+ *  Feel free to distribute with commercial and non-commercial game
+ *  Please give credit if used in your game. 
+ *
+ *  UI Creator is licensed under a MIT License.
+ *
+ *  ----------------------------------------------------------------------------
+ *  +++  INSTRUCTIONS +++
+ *  ----------------------------------------------------------------------------
+ *
+ *  POSITIONING WINDOWS 
+ *   To move one of the specific windows to a certain location on the screen.
+ *   Input the window cordinates into your X and Y values.
+ *
+ *  WINDOW SIZE
+ *   Make sure that all windows sizes width and hieght are input in pixels.
+ *
+ *  SPECIFYING WINDOW COLUMNS & ROWS
+ *   Specify the number of columns and rows you want. Try to keep things in 
+ *   even numbers, as odd numbers tend to throw things off in RPGMaker. 
+ *
+ *  SETTING THE WINDOW OPACITY
+ *   Here you can change the opacity of your window making it a bit more 
+ *   tranparent. Setting the opacity to 255 will make you window with a 
+ *   full opacity. 127 is roughly 50% opacity. and 0 is completly transparent.
+ *
  *
  * @param --- Command Window ---
  * @default Settings for Command Window
@@ -13,7 +62,7 @@
  *
  * @param Command Window Y Position
  * @desc Enter the Y Cord you want your Command window to be. Value is in px.
- * @default 559
+ * @default 0
  *
  * @param Command Window Width
  * @desc Enter the Width you want your Command window to be. Value is in px.
@@ -97,16 +146,17 @@
  * @param Command Window Opacity
  * @desc Opacity of the status window
  * @default 255
- *
  */
 (function () {
-    //Create Background
+    
+	// I will add  this back in (V.02) with additional features. 
+	//Create Background
  
-    Scene_MenuBase.prototype.createBackground = function() {
-        this._backgroundSprite = new Sprite();
-        this._backgroundSprite.bitmap = ImageManager.loadPicture('dcbg');
-        this.addChild(this._backgroundSprite);
-    };
+	// Scene_MenuBase.prototype.createBackground = function() {
+    //     this._backgroundSprite = new Sprite();
+    //     this._backgroundSprite.bitmap = ImageManager.loadPicture('dcbg');
+    //     this.addChild(this._backgroundSprite);
+    // };
  
     //Initialize Plugin
     var parameters = PluginManager.parameters('UIC-MainMenu-Alpha');
