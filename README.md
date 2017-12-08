@@ -1,5 +1,4 @@
-# UI Creator Suite 
-## Custom Menu Builder Plugin for RPGMaker MV
+# UI Creator Suite - Custom Menu Builder Plugin for RPGMaker MV
 
 ### ABOUT THIS PLUGIN 
 This plugin allows you to edit the main menu system and arange the layout 
@@ -29,4 +28,5 @@ full opacity. 127 is roughly 50% opacity. and 0 is completly transparent.
 
 ### Version History 
 (0.1) - Initial Creation.  Ability to arange Main Menu Layout.
+
 (0.1.5) - Added help file to the plugin for RPGMaker 1.5.1 update.
