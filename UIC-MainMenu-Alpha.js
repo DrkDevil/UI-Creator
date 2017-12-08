@@ -1,5 +1,5 @@
 /*:
- * @plugindesc UI Creator - Main Menu Editor (v0.1.5)
+ * @plugindesc UI Creator - Main Menu Editor (v0.2.0)
  * @author Digital Religion
  *
  * @help
@@ -64,6 +64,8 @@
  *
  *   (0.1) - Initial Creation.  Ability to arange Main Menu Layout.
  *   (0.1.5) - Added help file to the plugin for RPGMaker 1.5.1 update.
+ *   (0.2.0) - Added Background image and ability to name that image from 
+ *             withing the plugin manager.
  *
  * @param --- Background Image ---
  * @default Settings for Main Menus Background

@@ -27,6 +27,6 @@ tranparent. Setting the opacity to 255 will make you window with a
 full opacity. 127 is roughly 50% opacity. and 0 is completly transparent.
 
 ### Version History 
-(0.1) - Initial Creation.  Ability to arange Main Menu Layout.
-
-(0.1.5) - Added help file to the plugin for RPGMaker 1.5.1 update.
+# (0.1) - Initial Creation.  Ability to arange Main Menu Layout.
+# (0.1.5) - Added help file to the plugin for RPGMaker 1.5.1 update.
+# (0.2.0) - Added Background image and ability to name that image from withing the plugin manager.
